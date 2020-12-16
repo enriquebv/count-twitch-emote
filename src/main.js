@@ -9,7 +9,6 @@ import 'normalize.css/normalize.css';
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-  mode: 'history',
   routes: [
     { path: '/', component: Display },
     { path: '/config', component: Config },
